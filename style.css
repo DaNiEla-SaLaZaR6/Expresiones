@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-text-stroke-width: 1px;
+    color: aliceblue;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./endless-constellation.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+}
+
+.formulario{
+    height: 80%;
+    width: 50%;
+    background-color: rgba(56, 56, 50, 0.427);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(102, 16, 102, 0.459);
+
+}
+.title{
+    font-size: 40px;
+    gap: 15px;
+    margin-top: 20px;
+}
+.nombre_apellido{
+    height: 60px;
+    width: 80%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.nombres,.apellidos{
+    height: 80px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.fecha_telefono{
+    height: 40px;
+    width: 80%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+#fechas,#telefonos{
+    height: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.emails{
+    height: 40px;
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+#email{
+    height: 30px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: blueviolet;
+}
+.terminos{
+    height: 20px;
+    width: 20px;
+    border: solid 1px aliceblue;
+}
+input{
+    color: blueviolet;
+    height: 30px;
+}
+
+button{
+    height: 35px;
+    width: 100px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: solid 1px aliceblue;
+    margin: 20px;
+}
+button:hover{
+    background-color: rgba(137, 43, 226, 0.308);
+}
